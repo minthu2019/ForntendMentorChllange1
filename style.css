@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.container{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:rgb(182 183 188) 5px 15px 15px ;
+              
+}
+
+.hero{
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 3px 10px 10px rgb(182 183 188) ;
+}
+
+.hero .image{  
+    background:  white;
+}
+
+.hero .image img{
+    height:190px ; 
+}
+
+.container .hero .sexcontainer{
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.content{
+   text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content h3{
+    font-weight: 900;
+    color: #36364a;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.content p{
+    font-size: 13px;
+    color: #9997b2;
+
+}
+
+.plan-box{
+    background-color: hsl(224deg 31.45% 94.72%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.Annual_plan{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Annual_plan img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.Annual_plan .title{
+    font-size: 14px;
+
+}
+
+.Annual_plan .title h4{
+    color: #36364a;
+}
+
+.Annual_plan .title p{
+    color: #9997b2;
+}
+
+.plan-box a{
+    font-size: 10px;
+    padding: 20px;
+}
+
+.payment-btn{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(225, 100%, 98%);
+    background-color: #0000ff;
+    box-shadow: 0px 10px 10px rgb(135, 137, 146) ;
+}
+
+.cancle-btn{
+    color: #9997b2;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+@media screen and (max-width:320px){
+    .container{
+        margin: 0;
+    }
+    .hero{
+        margin: 50px 20px;
+    }
+
+    .hero .image img{
+        height:180px ; 
+        background-position: center;
+    }
+}
